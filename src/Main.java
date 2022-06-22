@@ -15,7 +15,7 @@ public class Main {
 
         if (userName.equals("patika") && password.equals("java123")) {
             System.out.println("Sifre ve kullanici adiniz dogrudur. \n Başarili giris yaptiniz");
-            
+
         } else if (!(userName.equals("patika") || password.equals("java123"))) {
             System.out.println("Sifre veya Kullanici adi hatali \n " +
                     "Sifrenizi unuttuysanız sıfırlamak için");
@@ -31,7 +31,7 @@ public class Main {
             System.out.println("Şifre oluşturulamadı, lütfen başka şifre giriniz.");
 
         } else {
-            System.out.println("Sifreniz Olusturuldu");
+            System.out.println("Sifreniz Olusturuldu ");
         }
 
     }
